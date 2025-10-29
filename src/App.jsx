@@ -1,16 +1,10 @@
-import React, { Profiler } from "react";
-import ProfileContainer from "./project-class/profilecontainer";
-
-
+import UsestateComponent from "./topics/Props/Hooks/usestates/UsestateComponent";
 
 function App() {
   return (
     <div>
-  
-< ProfileContainer/>
+< UsestateComponent/>
     </div>
-
   );
 }
-
 export default App;
