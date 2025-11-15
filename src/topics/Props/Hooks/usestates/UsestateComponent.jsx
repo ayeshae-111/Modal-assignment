@@ -42,7 +42,7 @@ const closeModal = () => {
     <h3 className="form-heading">Contact Form</h3>
 
     <form className="contact-form"
-onSubmit= {handleSubmit}>
+onSubmit= {handleSubmit}> 
       {/* First Name */}
       <div className="form-group">
         <label htmlFor="firstName" className="form-label">First Name</label>
@@ -127,7 +127,7 @@ onSubmit= {handleSubmit}>
 {showModal && (
   <div className="modal-overlay" onClick={closeModal}>
     <div className="modal-box" onClick={(e) => e.stopPropagation()}>
-      <h3>Your form has been submitted!</h3>
+      <h3>Your message has been submitted!</h3>
       <button className="modal-btn" onClick={closeModal}>
         OK
       </button>
